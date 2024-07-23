@@ -6,6 +6,8 @@
 
 ### 视频文件检测
 
+
+目前比较懒，camera和当前yolov5_det,一个是usb相机，一个是视频，替换一个名字就不用改CMakeLists，后边频繁使用，我就调整一下了
 video detect：
 ```bash
 ./yolov5_det -d model.engine video.mp4
